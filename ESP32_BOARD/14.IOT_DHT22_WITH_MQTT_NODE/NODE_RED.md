@@ -100,28 +100,19 @@ Start Node-RED by typing:
 node-red
 ```
 
-Once started, Node-RED will:
 
-* Create a folder:
-  `%HOMEPATH%\.node-red`
-* Launch the server and display logs in your terminal.
-
-By default, it runs at:
-
-👉 [http://127.0.0.1:1880](http://127.0.0.1:1880)
-
-⚠️ **Keep the terminal open** to keep Node-RED running.
-You can stop it anytime by pressing **Ctrl + C**.
-
----
 
 ## 🔁 Step 7: Repeat Steps (If Needed)
 
 If you encounter installation issues or command errors:
 
 1. Run **PowerShell as Administrator**.
-2. Repeat **Steps 1–6** in the same order.
-3. Finally, re-run Node-RED using:
+2. Run
+ ```bash
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+4. Repeat **Steps 1–6** in the same order.
+5. Finally, re-run Node-RED using:
 
    ```bash
    node-red
@@ -129,6 +120,7 @@ If you encounter installation issues or command errors:
 
 When successful, open your browser and visit:
 It will appear on youur terminal similar to the one below
+
 👉 [http://localhost:1880](http://localhost:1880)
 
 You will see the **Node-RED flow editor interface**.
