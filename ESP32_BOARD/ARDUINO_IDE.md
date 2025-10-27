@@ -18,7 +18,7 @@ Install the **CP210x USB to UART driver** from Silicon Labs:
 ### 🔍 Step 3: Add ESP Board Manager URL
 1. Open Arduino IDE → **File → Preferences**
 2. Paste the following URLs in *Additional Boards Manager URLs* field:
-
+if you have esp8266 board paste the url below:
 ```
 https://dl.espressif.com/dl/package_esp32_index.json
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
