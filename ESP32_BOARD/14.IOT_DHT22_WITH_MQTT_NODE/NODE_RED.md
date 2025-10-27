@@ -128,7 +128,7 @@ If you encounter installation issues or command errors:
    ```
 
 When successful, open your browser and visit:
-
+It will appear on youur terminal similar to the one below
 👉 [http://localhost:1880](http://localhost:1880)
 
 You will see the **Node-RED flow editor interface**.
